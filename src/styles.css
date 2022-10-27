@@ -1,1 +1,88 @@
 /* You can add global styles to this file, and also import other style files */
+.main-container{
+    margin-top: 20px;
+}
+
+.main-conta{
+    background-color: gainsboro;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+.img-logo{
+  width: 120px;
+}
+
+.col{
+  display: flex;
+  background: red;
+  height: 50px;
+}
+
+.te {
+  margin-right:20px;
+  width: 20%;
+  height: 40px;
+  padding: 1%;
+  
+}
+
+.tex {
+  background-color: rgb(0, 255, 0);
+  margin-right:20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.tex1 {
+  background-color: rgb(255, 123, 0);
+  margin-right:20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Animaciones*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
